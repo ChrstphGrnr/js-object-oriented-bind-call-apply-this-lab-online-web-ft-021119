@@ -8,4 +8,7 @@ function setThisWithCall(fn, thisValue, arg) {
   return result;
 }
 
-function setThisWithApply(fn, thisValue, arg)
+function setThisWithApply(fn, thisValue, args) {
+  let result = fn.map(thisValue, args);
+  return result;
+}
