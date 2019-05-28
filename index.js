@@ -9,6 +9,6 @@ function setThisWithCall(fn, thisValue, arg) {
 }
 
 function setThisWithApply(fn, thisValue, args) {
-  let result = fn.map(thisValue, args);
+  let result = fn.apply(thisValue, args);
   return result;
 }
