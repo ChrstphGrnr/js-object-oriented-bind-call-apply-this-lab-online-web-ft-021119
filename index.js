@@ -12,3 +12,5 @@ function setThisWithApply(fn, thisValue, args) {
   let result = fn.apply(thisValue, args);
   return result;
 }
+
+function 
