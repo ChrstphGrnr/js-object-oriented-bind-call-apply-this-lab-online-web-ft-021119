@@ -8,4 +8,4 @@ function setThisWithCall(fn, thisValue, arg) {
   return result;
 }
 
-function setThisWithApply()
+function setThisWithApply(fn, thisValue, arg)
